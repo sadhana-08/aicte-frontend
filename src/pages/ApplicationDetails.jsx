@@ -188,11 +188,9 @@ export default function ApplicationDetails() {
             <h3 id="findings-heading">AI review findings</h3>
             <p>Review status</p>
           </div>
-          <span className="disabled-action-tooltip" title="Available once the backend is connected">
-            <button className="secondary-button detail-disabled-button" type="button" disabled>
-              <Sparkles size={14} /> Run AI Review
-            </button>
-          </span>
+          <Link className="secondary-button detail-disabled-button" to={`/applications/${application.id}/review`}>
+            <Sparkles size={14} /> Run AI Review
+          </Link>
         </div>
         <div className="details-empty-state">
           <EmptyState title="No AI review has been run for this application." message="" />

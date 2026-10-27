@@ -1,0 +1,34 @@
+{
+  "applicationId": "Sample application",
+  "documentName": "Sample document.pdf",
+  "reviewedAt": "",
+  "isSample": true,
+  "summary": {
+    "needsReview": 1,
+    "potentialMatch": 0,
+    "insufficientEvidence": 0
+  },
+  "extractedFields": [
+    { "name": "Sample field", "value": "Sample value", "page": "Sample page" }
+  ],
+  "references": [
+    {
+      "id": "sample-reference",
+      "title": "Sample handbook section",
+      "page": "Sample page",
+      "excerpt": "Sample excerpt text.",
+      "relevance": "Sample relevance indicator"
+    }
+  ],
+  "findings": [
+    {
+      "id": "sample-finding",
+      "status": "Needs review",
+      "explanation": "Sample explanation text.",
+      "referenceId": "sample-reference",
+      "page": "Sample page",
+      "evidence": "Sample evidence text."
+    }
+  ],
+  "report": "Sample report text."
+}

@@ -7,11 +7,12 @@ const allowedOutcomes = new Set([
   'Cancelled',
   'Not available (demo mode)',
 ]);
+const USE_REVIEW_HISTORY_ENDPOINT = false;
 
 let sessionReviewHistory = [];
 
 export async function getReviewHistory() {
-  if (USE_MOCK) {
+  if (USE_MOCK || !USE_REVIEW_HISTORY_ENDPOINT) {
     await delay(450);
     return sessionReviewHistory
       .map((entry) => ({ ...entry, findingsCounts: entry.findingsCounts ? { ...entry.findingsCounts } : null }))
@@ -25,9 +26,6 @@ export async function getReviewHistory() {
 }
 
 export async function logReviewRun(entry) {
-  if (!USE_MOCK) {
-    throw new Error('Review history logging is not configured for the backend yet.');
-  }
   if (!allowedOutcomes.has(entry.outcome)) {
     throw new Error('Unsupported review outcome.');
   }

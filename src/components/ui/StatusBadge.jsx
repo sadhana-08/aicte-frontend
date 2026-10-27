@@ -7,6 +7,9 @@ const statusStyles = {
   Uploaded: 'status-document-uploaded',
   'Pending Review': 'status-document-pending',
   'Needs Attention': 'status-document-attention',
+  'Needs review': 'status-ai-needs-review',
+  'Potential match': 'status-ai-potential-match',
+  'Insufficient evidence': 'status-ai-insufficient-evidence',
 };
 
 export default function StatusBadge({ status }) {
