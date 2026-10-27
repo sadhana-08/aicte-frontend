@@ -2048,3 +2048,134 @@ a {
     padding-top: 0;
   }
 }
+
+.review-history-page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.review-history-heading {
+  align-items: flex-end;
+}
+
+.review-run-count {
+  padding-bottom: 4px;
+  color: #788592;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.review-history-page > .state-panel {
+  min-height: 290px;
+}
+
+.review-history-panel {
+  overflow: hidden;
+}
+
+.review-history-toolbar {
+  flex-wrap: wrap;
+}
+
+.review-history-toolbar .search-field {
+  flex: 1 1 300px;
+}
+
+.review-history-toolbar .status-filter-label select {
+  min-width: 210px;
+}
+
+.review-history-table {
+  min-width: 1190px;
+}
+
+.review-history-table th,
+.review-history-table td {
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.review-history-table th:first-child,
+.review-history-table td:first-child {
+  padding-left: 17px;
+}
+
+.review-history-table th:last-child,
+.review-history-table td:last-child {
+  padding-right: 17px;
+}
+
+.review-history-table th:nth-child(n + 6):nth-child(-n + 8),
+.review-count-cell {
+  text-align: center;
+}
+
+.review-document-name {
+  max-width: 210px;
+  overflow: hidden;
+  color: #43515f !important;
+  text-overflow: ellipsis;
+}
+
+.review-outcome {
+  display: inline-flex;
+  min-height: 23px;
+  align-items: center;
+  padding: 3px 8px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.outcome-completed { border-color: #cfe2d4; background: #eff6f0; color: #39704b; }
+.outcome-no-findings { border-color: #cdddea; background: #eef4f8; color: #315f80; }
+.outcome-failed { border-color: #ead2ce; background: #faf0ee; color: #934e45; }
+.outcome-cancelled { border-color: #e0e4e8; background: #f4f5f6; color: #66717c; }
+.outcome-demo { border-color: #d8dce6; background: #f2f3f7; color: #5f647c; }
+
+.review-count-cell {
+  color: #4a5967 !important;
+  font-variant-numeric: tabular-nums;
+}
+
+.review-view-link {
+  color: #245b83;
+  font-size: 11px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.review-view-link:hover {
+  color: #123d5f;
+  text-decoration: underline;
+}
+
+.review-history-notice {
+  margin-top: -2px;
+}
+
+@media (max-width: 760px) {
+  .review-history-page {
+    gap: 14px;
+  }
+
+  .review-history-heading {
+    align-items: flex-start;
+  }
+
+  .review-history-toolbar .search-field {
+    flex-basis: 100%;
+  }
+
+  .review-history-toolbar .status-filter-label {
+    flex: 1 1 auto;
+  }
+
+  .review-history-toolbar .status-filter-label select {
+    min-width: 0;
+    width: 100%;
+  }
+}
