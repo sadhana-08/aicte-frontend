@@ -1,0 +1,72 @@
+{
+  "applications": [
+    {
+      "id": "DEMO-APP-24081",
+      "institution": "Northstar Institute of Applied Studies",
+      "state": "Maharashtra",
+      "updatedAt": "2026-10-24",
+      "status": "Ready for Submission"
+    },
+    {
+      "id": "DEMO-APP-24076",
+      "institution": "Cedar Valley Technical University",
+      "state": "Karnataka",
+      "updatedAt": "2026-10-22",
+      "status": "Under Review"
+    },
+    {
+      "id": "DEMO-APP-24063",
+      "institution": "Meridian School of Engineering",
+      "state": "Tamil Nadu",
+      "updatedAt": "2026-10-20",
+      "status": "Issues Found"
+    },
+    {
+      "id": "DEMO-APP-24052",
+      "institution": "Blue Oak Institute of Technology",
+      "state": "Gujarat",
+      "updatedAt": "2026-10-18",
+      "status": "Pending Human Review"
+    },
+    {
+      "id": "DEMO-APP-24039",
+      "institution": "Riverbend College of Digital Sciences",
+      "state": "Telangana",
+      "updatedAt": "2026-10-16",
+      "status": "Draft"
+    },
+    {
+      "id": "DEMO-APP-24027",
+      "institution": "Summit Ridge Polytechnic",
+      "state": "Kerala",
+      "updatedAt": "2026-10-14",
+      "status": "Ready for Submission"
+    }
+  ],
+  "activity": [
+    {
+      "id": "DEMO-ACT-901",
+      "applicationId": "DEMO-APP-24081",
+      "message": "Application status updated to Ready for Submission",
+      "timestamp": "2026-10-24T11:35:00"
+    },
+    {
+      "id": "DEMO-ACT-902",
+      "applicationId": "DEMO-APP-24076",
+      "message": "Application moved to Under Review",
+      "timestamp": "2026-10-22T15:10:00"
+    },
+    {
+      "id": "DEMO-ACT-903",
+      "applicationId": "DEMO-APP-24063",
+      "message": "Application status updated to Issues Found",
+      "timestamp": "2026-10-20T09:20:00"
+    },
+    {
+      "id": "DEMO-ACT-904",
+      "applicationId": "DEMO-APP-24052",
+      "message": "Application queued for human review",
+      "timestamp": "2026-10-18T13:45:00"
+    }
+  ]
+}
