@@ -1,8 +1,8 @@
-export default function Loader() {
+export default function Loader({ label = 'Loading dashboard data' }) {
   return (
     <div className="loading-dashboard" role="status" aria-live="polite">
       <span className="loading-mark" />
-      <span>Loading dashboard data</span>
+      <span>{label}</span>
     </div>
   );
 }

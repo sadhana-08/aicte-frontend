@@ -5,9 +5,9 @@ import Sidebar from './Sidebar.jsx';
 
 function getPageTitle(pathname) {
   if (pathname === '/') return 'Dashboard';
+  if (pathname === '/applications/new') return 'New Application';
   if (pathname.startsWith('/applications/')) return 'Application Details';
   if (pathname.startsWith('/applications')) return 'Applications';
-  if (pathname === '/new-application') return 'New Application';
   if (pathname === '/ai-review') return 'AI Review';
   if (pathname === '/review-history') return 'Review History';
   return 'Dashboard';

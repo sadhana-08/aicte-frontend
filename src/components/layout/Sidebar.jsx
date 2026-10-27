@@ -12,7 +12,7 @@ import {
 const navigation = [
   { label: 'Dashboard', to: '/', icon: LayoutDashboard, end: true },
   { label: 'Applications', to: '/applications', icon: Files },
-  { label: 'New Application', to: '/new-application', icon: FilePlus2 },
+  { label: 'New Application', to: '/applications/new', icon: FilePlus2 },
   { label: 'AI Review', to: '/ai-review', icon: Sparkles },
   { label: 'Review History', to: '/review-history', icon: History },
 ];

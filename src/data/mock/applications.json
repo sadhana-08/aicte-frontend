@@ -1,0 +1,74 @@
+[
+  {
+    "id": "APP-DEMO-1801",
+    "institution": "Silver Fern Institute of Engineering",
+    "state": "Maharashtra",
+    "submittedAt": "2026-10-25",
+    "documentCount": 7,
+    "status": "Ready for Submission"
+  },
+  {
+    "id": "APP-DEMO-1802",
+    "institution": "Pinecrest School of Management",
+    "state": "Karnataka",
+    "submittedAt": "2026-10-23",
+    "documentCount": 5,
+    "status": "Under Review"
+  },
+  {
+    "id": "APP-DEMO-1803",
+    "institution": "Westlake College of Pharmacy",
+    "state": "Tamil Nadu",
+    "submittedAt": "2026-10-22",
+    "documentCount": 4,
+    "status": "Issues Found"
+  },
+  {
+    "id": "APP-DEMO-1804",
+    "institution": "Cobalt Ridge Technical Academy",
+    "state": "Gujarat",
+    "submittedAt": "2026-10-21",
+    "documentCount": 6,
+    "status": "Pending Human Review"
+  },
+  {
+    "id": "APP-DEMO-1805",
+    "institution": "Juniper Bay Institute of Architecture",
+    "state": "Kerala",
+    "submittedAt": "2026-10-20",
+    "documentCount": 3,
+    "status": "Draft"
+  },
+  {
+    "id": "APP-DEMO-1806",
+    "institution": "Redwood Valley Engineering College",
+    "state": "Telangana",
+    "submittedAt": "2026-10-18",
+    "documentCount": 8,
+    "status": "Ready for Submission"
+  },
+  {
+    "id": "APP-DEMO-1807",
+    "institution": "Brightwater Institute of Applied Science",
+    "state": "Rajasthan",
+    "submittedAt": "2026-10-16",
+    "documentCount": 5,
+    "status": "Under Review"
+  },
+  {
+    "id": "APP-DEMO-1808",
+    "institution": "Maple Grove School of Design",
+    "state": "Odisha",
+    "submittedAt": "2026-10-13",
+    "documentCount": 2,
+    "status": "Draft"
+  },
+  {
+    "id": "APP-DEMO-1809",
+    "institution": "Stonebridge Institute of Technology",
+    "state": "Punjab",
+    "submittedAt": "2026-10-11",
+    "documentCount": 6,
+    "status": "Issues Found"
+  }
+]
