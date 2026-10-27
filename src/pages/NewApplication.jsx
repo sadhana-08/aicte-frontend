@@ -209,6 +209,14 @@ export default function NewApplication() {
     setIsSaving(true);
     setFormMessage('');
     try {
+      const uploadedDocuments = documents
+        .filter((document) => document.status === 'Uploaded')
+        .map((document) => ({
+          name: document.file.name,
+          sizeKb: document.file.size ? Math.max(1, Math.round(document.file.size / 1024)) : 0,
+          uploadedOn: new Date().toISOString().slice(0, 10),
+          status: 'Uploaded',
+        }));
       const application = await createApplication({
         id: applicationId,
         institution: values.institutionName.trim(),
@@ -220,7 +228,8 @@ export default function NewApplication() {
         contactEmail: values.contactEmail.trim(),
         applicationType: values.applicationType,
         status,
-        documentCount: documents.filter((document) => document.status === 'Uploaded').length,
+        documentCount: uploadedDocuments.length,
+        documents: uploadedDocuments,
       });
       setSuccess({ id: application.id, status });
     } catch (saveError) {

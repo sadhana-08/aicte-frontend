@@ -4,6 +4,9 @@ const statusStyles = {
   'Under Review': 'status-review',
   'Issues Found': 'status-issues',
   'Pending Human Review': 'status-pending',
+  Uploaded: 'status-document-uploaded',
+  'Pending Review': 'status-document-pending',
+  'Needs Attention': 'status-document-attention',
 };
 
 export default function StatusBadge({ status }) {
